@@ -1,0 +1,28 @@
+header{
+    font-size:45px;
+    color:purple;
+    background: rgb(240, 116, 240)
+   
+}
+body{
+    background: rgb(183, 137, 189);
+    color: black;
+}
+section{
+    background: rgb(131, 63, 148);
+}
+img{
+    height: 200px;
+}
+.seletor{
+    display: flex;
+overflow-x: auto;
+gap: 20px
+}
+.seletor img{
+    opacity: 0.5;
+}
+
+.seletor img:hover{
+    opacity: 1.0;
+}
